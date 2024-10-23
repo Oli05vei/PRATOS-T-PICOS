@@ -5,3 +5,8 @@ body{
 h1{
     color: blueviolet;
 }
+section{
+    background: rgb(226, 224, 202);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
