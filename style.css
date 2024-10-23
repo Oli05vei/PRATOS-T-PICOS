@@ -12,3 +12,7 @@ section{
     display: flex;
     justify-items: center;
 }
+
+div{
+    margin-right: 20px;
+}
