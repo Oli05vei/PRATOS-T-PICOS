@@ -1,9 +1,9 @@
 body{
     background-color: rgb(199, 196, 162);
-    color: rgb(24, 79, 128);
+    color: rgb(29, 57, 82);
 }
 h1{
-    color: blueviolet;
+    color: rgb(241, 85, 13);
 }
 section{
     background: rgb(75, 74, 66);
@@ -13,6 +13,6 @@ section{
     justify-items: center;
 }
 
-div{
+.chamada-texto {
     margin-right: 20px;
 }
