@@ -20,6 +20,11 @@ section{
 img{
     height: 200px;
 }
+.pratos-vídeos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
 
 
 
