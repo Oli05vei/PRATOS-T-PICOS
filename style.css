@@ -1,43 +1,41 @@
 /* Aplicação de estilo global */
 body {
-    background-color: rgb(199, 196, 162); /* Fundo de cor clara */
-    color: rgb(38, 38, 38); /* Texto escuro para maior contraste */
-    font-family: Arial, sans-serif; /* Fonte padrão */
+    background-color: rgb(199, 196, 162); 
+    color: rgb(38, 38, 38); 
+    font-family: Arial, sans-serif; 
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Inclui padding e bordas no tamanho total */
+    box-sizing: border-box; 
 }
 
-/* Estilo do título principal */
+
 h1 {
-    color: rgb(241, 85, 13); /* Destaque para o título */
-    text-align: center; /* Centralizado */
-    margin: 20px 0; /* Espaçamento em cima e embaixo */
+    color: rgb(241, 85, 13); 
+    text-align: center; 
+    margin: 20px 0; 
 }
-
-/* Seção principal */
 section {
-    background: rgb(12, 11, 0); /* Fundo escuro */
-    color: rgb(238, 242, 245); /* Texto claro */
-    padding: 80px 20px; /* Espaçamento interno ajustado */
+    background: rgb(12, 11, 0); 
+    color: rgb(238, 242, 245); 
+    padding: 80px 20px; 
     display: flex;
-    justify-content: center; /* Centralização horizontal */
-    flex-wrap: wrap; /* Permite quebra de linha em telas menores */
-    gap: 20px; /* Espaçamento entre elementos */
+    justify-content: center; 
+    flex-wrap: wrap;
+    gap: 20px; 
 }
 
-/* Texto descritivo */
+
 .chamada-texto {
     margin-right: 5%;
-    max-width: 500px; /* Limita a largura para evitar textos muito longos */
+    max-width: 500px; 
 }
 
 /* Imagens */
 img {
-    height: 200px; /* Altura fixa */
-    border-radius: 8px; /* Bordas arredondadas */
-    object-fit: cover; /* Ajusta a imagem para não distorcer */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    height: 200px;
+    border-radius: 8px; 
+    object-fit: cover; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
 }
 
 /* Container de vídeos */
@@ -49,7 +47,7 @@ img {
     padding: 10px 0; /* Espaçamento em cima e embaixo */
 }
 
-/* Adiciona barra de rolagem mais discreta */
+
 .pratos-vídeos::-webkit-scrollbar {
     height: 8px;
 }
